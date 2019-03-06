@@ -4,10 +4,10 @@
 
 # Site
 title: This is my first Hexo Blog
-subtitle: 这是我的第一个Hexo博客
+subtitle: 二手芝士加工厂
 description: 只是学习测试
-author: Vincent Shaw
-language: 
+author: Shaw
+language: chinese
 timezone: 
 
 # URL
@@ -16,6 +16,8 @@ url: http://localhost:4000/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
+
+sidebar-avatar: img/avatar.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Directory
 source_dir: source
@@ -73,7 +75,8 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 # theme: landscape
-theme: hexo-theme-aero-dual-master
+# theme: hexo-theme-aero-dual-master
+theme: hexo-theme-aircloud-master
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
